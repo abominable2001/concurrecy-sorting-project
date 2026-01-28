@@ -1,8 +1,7 @@
 
 // Sequential Quicksort and Mergesort
 // This file runs both sorting algorithms without threads.
-// I added very simple comments so the code is easier to follow.
-// ---------------------------------------------------------------
+
 
 #define _XOPEN_SOURCE 700
 #include <stdio.h>

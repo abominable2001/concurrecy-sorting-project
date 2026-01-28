@@ -1,7 +1,6 @@
 // Parallel Quicksort and Mergesort using pthreads
 // This file runs both algorithms with threads.
-// I also run the sequential versions here for comparison.
-// Comments are simple so beginners can follow easily.
+
 
 #define _XOPEN_SOURCE 700
 #include <pthread.h>

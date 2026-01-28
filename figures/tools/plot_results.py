@@ -10,7 +10,7 @@
 
 import sys, csv, os
 
-# Use a non-GUI backend so this works inside Cursor or any headless env
+# Using a non-GUI backend so this works inside Cursor or any headless env
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -22,7 +22,7 @@ if len(sys.argv) < 3:
 csv_path = sys.argv[1]
 N_focus = int(sys.argv[2])
 
-# Ensure output dir exists
+# Ensuring output dir exists
 out_dir = os.path.join(os.path.dirname(os.path.dirname(csv_path)), "figures") \
           if os.path.dirname(csv_path) else "figures"
 os.makedirs(out_dir, exist_ok=True)
